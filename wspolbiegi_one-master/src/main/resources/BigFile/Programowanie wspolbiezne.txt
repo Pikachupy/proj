@@ -1,0 +1,49 @@
+Współbiegi czwartek 16:15
+
+3 projekty, zespoły po 4-5 osób
+
+dominik.olszewski@pw.edu.pl
+konsultacje: wt 18:15 - 19:45
+wykłady MS Teams + zaliczenie też zdalnie
+na isodzie będą przykładowe programy
+
+zaliczenie: W 40% P 60%
+zal wykładu: podać kod lub wynik kodu (praktyczne)
+
+java only
+
+projekt 1.
+pule wątków (interfejsy Executor, ExecutorService, ScheduledExecutorService)
+^ ThreadPools
+wielowątkowość wysokopoziomowa
+java.util.concurrent (Java 5+)
+
+realizacja: porównanie (podejście niskopoziomowe (interfejs Runnable) vs. powyższe), dowolny profiler jako ocena wydajności
+konkretne zadanie będzie ustalane z każdm zespołem indywidualnie (np. animacje)
+
+projekt 2.
+framework fork-join
+java.util.concurrent
+ForkJoinPool class - element centralny, ForkJoinTask (generyczna, seed) -> RecursiveAction (nie przyjmuje typu), RecursiveTask (przyjmuje)
+^ te klasy mają metodę compute, gdzie będzie mięso (tutaj po określeniu rozmiaru problemu albo dzielimy na podproblemy, albo wykonujemy)
+projekt dotyczy wykorzystania (+ dobrego ustalenia progu dzielenia), tematy indywidualne
+
+projekt 3.
+operacje agregacyjne - operacje na zbiorze danych w postaci strumienia
+metody wykonywane na kolekcjach
+stream() / parallelStream() (sekwencyjnie / równolegle)
+profiler, porównanie wydajności
+
+source -> intermediate operations -> terminate operation (tylko jedna)
+									 ^ wynik to jedna wartość lub kolekcja
+									 
+tematyka projektu indywidualnie
+
+daty:
+24.03 - projekt 1.
+21.04 - projekt 2.
+19.05 - projekt 3.
+
+na oddanie projektów obecność obowiązkowa, reszta konsultacyjnie
+
+update: będą obrony na teamsach
